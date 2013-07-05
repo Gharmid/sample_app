@@ -20,11 +20,8 @@ SampleApp::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
-<<<<<<< HEAD
   # Defaults to Rails.root.join("public/assets")
-=======
   # Defaults to nil and saved in location specified by config.assets.prefix
->>>>>>> 11120f6b8e9d6ac20245094148feef739f1866c6
   # config.assets.manifest = YOUR_PATH
 
   # Specifies the header that your server uses for sending files
@@ -32,7 +29,7 @@ SampleApp::Application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # config.force_ssl = true
+  config.force_ssl = true
 
   # See everything in the log (default is :info)
   # config.log_level = :debug
